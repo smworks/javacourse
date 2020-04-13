@@ -10,7 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/lesson1/task1" />
+            <option value="$PROJECT_DIR$/introduction/HelloClass" />
+            <option value="$PROJECT_DIR$/introduction/HelloObject" />
+            <option value="$PROJECT_DIR$/introduction/HelloWorld" />
+            <option value="$PROJECT_DIR$/introduction/HelloWorldMethod" />
+            <option value="$PROJECT_DIR$/introduction/SumMethod" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

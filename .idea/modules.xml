@@ -3,9 +3,21 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaPradmenys.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaPradmenys.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task1/JavaPradmenys.lesson1-task1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task1/JavaPradmenys.lesson1-task1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task1/JavaPradmenys.lesson1-task1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task1/JavaPradmenys.lesson1-task1.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task1/JavaPradmenys.lesson1-task1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task1/JavaPradmenys.lesson1-task1.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloClass/JavaPradmenys.introduction-HelloClass.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloClass/JavaPradmenys.introduction-HelloClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloClass/JavaPradmenys.introduction-HelloClass.main.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloClass/JavaPradmenys.introduction-HelloClass.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloClass/JavaPradmenys.introduction-HelloClass.test.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloClass/JavaPradmenys.introduction-HelloClass.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloObject/JavaPradmenys.introduction-HelloObject.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloObject/JavaPradmenys.introduction-HelloObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloObject/JavaPradmenys.introduction-HelloObject.main.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloObject/JavaPradmenys.introduction-HelloObject.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloObject/JavaPradmenys.introduction-HelloObject.test.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloObject/JavaPradmenys.introduction-HelloObject.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloWorld/JavaPradmenys.introduction-HelloWorld.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloWorld/JavaPradmenys.introduction-HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloWorld/JavaPradmenys.introduction-HelloWorld.main.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloWorld/JavaPradmenys.introduction-HelloWorld.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloWorld/JavaPradmenys.introduction-HelloWorld.test.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloWorld/JavaPradmenys.introduction-HelloWorld.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloWorldMethod/JavaPradmenys.introduction-HelloWorldMethod.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloWorldMethod/JavaPradmenys.introduction-HelloWorldMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloWorldMethod/JavaPradmenys.introduction-HelloWorldMethod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloWorldMethod/JavaPradmenys.introduction-HelloWorldMethod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/HelloWorldMethod/JavaPradmenys.introduction-HelloWorldMethod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/HelloWorldMethod/JavaPradmenys.introduction-HelloWorldMethod.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/SumMethod/JavaPradmenys.introduction-SumMethod.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/SumMethod/JavaPradmenys.introduction-SumMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/SumMethod/JavaPradmenys.introduction-SumMethod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/SumMethod/JavaPradmenys.introduction-SumMethod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/introduction/SumMethod/JavaPradmenys.introduction-SumMethod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/introduction/SumMethod/JavaPradmenys.introduction-SumMethod.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/JavaPradmenys.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/JavaPradmenys.util.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/JavaPradmenys.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/JavaPradmenys.util.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/JavaPradmenys.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/JavaPradmenys.util.test.iml" />

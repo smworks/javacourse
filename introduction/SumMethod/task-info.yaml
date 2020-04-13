@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 121
+    length: 10
+    placeholder_text: Iškvieskite sum metodą su parametrais a ir b
+- name: test/Tests.java
+  visible: false
