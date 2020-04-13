@@ -1,0 +1,195 @@
+{
+  "summary" : "Java course.\nCreated: Apr 13, 2020, 11:52:58 AM.",
+  "title" : "JavaPradmenys",
+  "authors" : [
+    "Martynas Šustavičius"
+  ],
+  "programming_language" : "JAVA",
+  "language" : "en",
+  "course_type" : "PyCharm",
+  "items" : [
+    {
+      "title" : "introduction",
+      "task_list" : [
+        {
+          "name" : "HelloWorld",
+          "files" : {
+            "src/Task.java" : {
+              "name" : "src/Task.java",
+              "placeholders" : [
+                {
+                  "offset" : 92,
+                  "length" : 45,
+                  "possible_answer" : "\"Hello world!\"",
+                  "placeholder_text" : "Tekstą reikia rašyti tarp dvigubų kabučių (\")"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "public class Task {\n    public static void main(String[] args) {\n        System.out.println(Tekstą reikia rašyti tarp dvigubų kabučių (\"));\n    }\n}"
+            },
+            "test/Tests.java" : {
+              "name" : "test/Tests.java",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.After;\nimport org.junit.Assert;\nimport org.junit.Before;\nimport org.junit.Test;\n\nimport java.io.ByteArrayOutputStream;\nimport java.io.PrintStream;\n\npublic class Tests {\n\n  private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();\n  private final PrintStream originalOut = System.out;\n\n  @Before\n  public void setUpStreams() {\n    System.setOut(new PrintStream(outContent));\n  }\n\n  @After\n  public void restoreStreams() {\n    System.setOut(originalOut);\n  }\n\n  @Test\n  public void testSolution() {\n    Task.main(new String[0]);\n\n    String result = outContent.toString();\n    System.out.println(result);\n\n    Assert.assertFalse(result.isEmpty());\n  }\n}"
+            }
+          },
+          "description_text" : "<html>\n<p>Įrašykite tekstą kurį atspausdintų į <b>konsolę</b></p>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "HelloWorldMethod",
+          "files" : {
+            "src/Task.java" : {
+              "name" : "src/Task.java",
+              "placeholders" : [
+                {
+                  "offset" : 150,
+                  "length" : 48,
+                  "possible_answer" : "System.out.println(\"Hello world\");",
+                  "placeholder_text" : "Parašykite komandą teksto spausdinimui į konsolę"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "public class Task {\n    public static void main(String[] args) {\n        printHelloWorld();\n    }\n\n    public static void printHelloWorld() {\n        Parašykite komandą teksto spausdinimui į konsolę\n    }\n}"
+            },
+            "test/Tests.java" : {
+              "name" : "test/Tests.java",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.After;\nimport org.junit.Assert;\nimport org.junit.Before;\nimport org.junit.Test;\n\nimport java.io.ByteArrayOutputStream;\nimport java.io.PrintStream;\n\npublic class Tests {\n\n  private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();\n  private final PrintStream originalOut = System.out;\n\n  @Before\n  public void setUpStreams() {\n    System.setOut(new PrintStream(outContent));\n  }\n\n  @After\n  public void restoreStreams() {\n    System.setOut(originalOut);\n  }\n\n  @Test\n  public void testSolution() {\n    Task.printHelloWorld();\n\n    String result = outContent.toString();\n    System.out.println(result);\n\n    Assert.assertFalse(result.isEmpty());\n  }\n}"
+            }
+          },
+          "description_text" : "<html>\n<p>Papildykite <i>printHelloWorld</i> metodą komanda kuri atspausdintų tekstą į konsolę</p>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "SumMethod",
+          "files" : {
+            "src/Task.java" : {
+              "name" : "src/Task.java",
+              "placeholders" : [
+                {
+                  "offset" : 121,
+                  "length" : 44,
+                  "possible_answer" : "sum(a, b);",
+                  "placeholder_text" : "Iškvieskite sum metodą su parametrais a ir b"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "public class Task {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 6;\n        int sum = Iškvieskite sum metodą su parametrais a ir b\n        System.out.println(\"Sum is: \" + sum);\n    }\n\n    public static int sum(int a, int b) {\n        return a + b;\n    }\n}"
+            },
+            "test/Tests.java" : {
+              "name" : "test/Tests.java",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert;\nimport org.junit.Test;\n\npublic class Tests {\n  @Test\n  public void testSolution() {\n    Assert.assertEquals(Task.sum(5, 6), 11);\n  }\n}"
+            }
+          },
+          "description_text" : "<html>\n<p>Iškvieskite <b>sum</b> metodą su parametrais <b>a</b> ir <b>b</b></p>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "HelloClass",
+          "files" : {
+            "test/Tests.java" : {
+              "name" : "test/Tests.java",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.After;\nimport org.junit.Assert;\nimport org.junit.Before;\nimport org.junit.Test;\n\nimport java.io.ByteArrayOutputStream;\nimport java.io.PrintStream;\n\npublic class Tests {\n\n  private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();\n  private final PrintStream originalOut = System.out;\n\n  @Before\n  public void setUpStreams() {\n    System.setOut(new PrintStream(outContent));\n  }\n\n  @After\n  public void restoreStreams() {\n    System.setOut(originalOut);\n  }\n\n  @Test\n  public void testSolution() {\n    Task.main(new String[0]);\n\n    String result = outContent.toString();\n    System.out.println(result);\n\n    Assert.assertFalse(result.isEmpty());\n  }\n}"
+            },
+            "src/Hello.java" : {
+              "name" : "src/Hello.java",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "public class Hello {\n    public static void printHello() {\n        System.out.println(\"Hello world\");\n    }\n}\n"
+            },
+            "src/Task.java" : {
+              "name" : "src/Task.java",
+              "placeholders" : [
+                {
+                  "offset" : 73,
+                  "length" : 47,
+                  "possible_answer" : "Hello.printHello();",
+                  "placeholder_text" : "Iškvieskite printHello() metodą iš klasės Hello"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "public class Task {\n    public static void main(String[] args) {\n        Iškvieskite printHello() metodą iš klasės Hello\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\n<p>Iškvieskite <b>printHello()</b> metodą iš klasės <b>Hello</b></p>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "HelloObject",
+          "files" : {
+            "src/Task.java" : {
+              "name" : "src/Task.java",
+              "placeholders" : [
+                {
+                  "offset" : 108,
+                  "length" : 47,
+                  "possible_answer" : "hello.printHello();",
+                  "placeholder_text" : "Iškvieskite printHello() metodą iš klasės Hello"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "public class Task {\n    public static void main(String[] args) {\n        Hello hello = new Hello();\n        Iškvieskite printHello() metodą iš klasės Hello\n    }\n}"
+            },
+            "test/Tests.java" : {
+              "name" : "test/Tests.java",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.After;\nimport org.junit.Assert;\nimport org.junit.Before;\nimport org.junit.Test;\n\nimport java.io.ByteArrayOutputStream;\nimport java.io.PrintStream;\n\npublic class Tests {\n\n  private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();\n  private final PrintStream originalOut = System.out;\n\n  @Before\n  public void setUpStreams() {\n    System.setOut(new PrintStream(outContent));\n  }\n\n  @After\n  public void restoreStreams() {\n    System.setOut(originalOut);\n  }\n\n  @Test\n  public void testSolution() {\n    Task.main(new String[0]);\n\n    String result = outContent.toString();\n    System.out.println(result);\n\n    Assert.assertFalse(result.isEmpty());\n  }\n}"
+            },
+            "src/Hello.java" : {
+              "name" : "src/Hello.java",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "public class Hello {\n\n    private static final String HELLO_TEXT = \"Hello world\";\n\n    public void printHello() {\n        System.out.println(HELLO_TEXT);\n    }\n}\n"
+            }
+          },
+          "description_text" : "<html>\n<p>Iškvieskite <b>printHello()</b> metodą iš klasės <b>Hello</b></p>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "additional_files" : [
+    {
+      "name" : "README.md",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "# javacourse\r\nJava tasks for students\r\n"
+    },
+    {
+      "name" : "build.gradle",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "buildscript {\n    repositories {\n        mavenCentral()\n    }\n}\n\ndef printOutput(def output) {\n    return tasks.create(\"printOutput\") {\n        for (line in output.toString().readLines()) {\n            println \"#educational_plugin\" + line\n        }\n    }\n}\n\nsubprojects {\n    apply plugin: 'application'\n    apply plugin: 'java'\n\n    sourceCompatibility = 1.8\n\n    repositories {\n        mavenCentral()\n    }\n\n    dependencies {\n        testCompile group: 'junit', name: 'junit', version: '4.12'\n    }\n\n    sourceSets {\n        main {\n            java.srcDir 'src'\n        }\n        test {\n            java.srcDir 'test'\n        }\n    }\n\n    mainClassName = project.hasProperty(\"mainClass\") ? project.getProperty(\"mainClass\") : \"\"\n\n    def runOutput = new ByteArrayOutputStream()\n    tasks.run.setStandardOutput(runOutput)\n    tasks.run.doLast { printOutput(runOutput) }\n}\n\nproject(':util') {\n    dependencies {\n        compile group: 'junit', name: 'junit', version: '4.12'\n    }\n}\n\nconfigure(subprojects.findAll {it.name != 'util'}) {\n  dependencies {\n    compile project(':util').sourceSets.main.output\n    testCompile project(':util').sourceSets.test.output\n  }\n}\n"
+    }
+  ],
+  "version" : 11
+}
