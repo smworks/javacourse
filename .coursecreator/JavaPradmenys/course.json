@@ -19,13 +19,13 @@
               "placeholders" : [
                 {
                   "offset" : 92,
-                  "length" : 45,
+                  "length" : 4,
                   "possible_answer" : "\"Hello world!\"",
-                  "placeholder_text" : "Tekstą reikia rašyti tarp dvigubų kabučių (\")"
+                  "placeholder_text" : "TODO"
                 }
               ],
               "is_visible" : true,
-              "text" : "public class Task {\n    public static void main(String[] args) {\n        System.out.println(Tekstą reikia rašyti tarp dvigubų kabučių (\"));\n    }\n}"
+              "text" : "public class Task {\n    public static void main(String[] args) {\n        System.out.println(TODO);\n    }\n}"
             },
             "test/Tests.java" : {
               "name" : "test/Tests.java",
@@ -79,13 +79,13 @@
               "placeholders" : [
                 {
                   "offset" : 121,
-                  "length" : 44,
+                  "length" : 4,
                   "possible_answer" : "sum(a, b);",
-                  "placeholder_text" : "Iškvieskite sum metodą su parametrais a ir b"
+                  "placeholder_text" : "TODO"
                 }
               ],
               "is_visible" : true,
-              "text" : "public class Task {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 6;\n        int sum = Iškvieskite sum metodą su parametrais a ir b\n        System.out.println(\"Sum is: \" + sum);\n    }\n\n    public static int sum(int a, int b) {\n        return a + b;\n    }\n}"
+              "text" : "public class Task {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 6;\n        int sum = TODO\n        System.out.println(\"Sum is: \" + sum);\n    }\n\n    public static int sum(int a, int b) {\n        return a + b;\n    }\n}"
             },
             "test/Tests.java" : {
               "name" : "test/Tests.java",
@@ -121,13 +121,13 @@
               "placeholders" : [
                 {
                   "offset" : 73,
-                  "length" : 47,
+                  "length" : 4,
                   "possible_answer" : "Hello.printHello();",
-                  "placeholder_text" : "Iškvieskite printHello() metodą iš klasės Hello"
+                  "placeholder_text" : "TODO"
                 }
               ],
               "is_visible" : true,
-              "text" : "public class Task {\n    public static void main(String[] args) {\n        Iškvieskite printHello() metodą iš klasės Hello\n    }\n}"
+              "text" : "public class Task {\n    public static void main(String[] args) {\n        TODO\n    }\n}"
             }
           },
           "description_text" : "<html>\n<p>Iškvieskite <b>printHello()</b> metodą iš klasės <b>Hello</b></p>\n</html>",
@@ -145,13 +145,13 @@
               "placeholders" : [
                 {
                   "offset" : 108,
-                  "length" : 47,
+                  "length" : 4,
                   "possible_answer" : "hello.printHello();",
-                  "placeholder_text" : "Iškvieskite printHello() metodą iš klasės Hello"
+                  "placeholder_text" : "TODO"
                 }
               ],
               "is_visible" : true,
-              "text" : "public class Task {\n    public static void main(String[] args) {\n        Hello hello = new Hello();\n        Iškvieskite printHello() metodą iš klasės Hello\n    }\n}"
+              "text" : "public class Task {\n    public static void main(String[] args) {\n        Hello hello = new Hello();\n        TODO\n    }\n}"
             },
             "test/Tests.java" : {
               "name" : "test/Tests.java",

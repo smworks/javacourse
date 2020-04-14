@@ -11,11 +11,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/introduction/HelloClass" />
-            <option value="$PROJECT_DIR$/introduction/HelloObject" />
-            <option value="$PROJECT_DIR$/introduction/HelloWorld" />
-            <option value="$PROJECT_DIR$/introduction/HelloWorldMethod" />
-            <option value="$PROJECT_DIR$/introduction/SumMethod" />
+            <option value="$PROJECT_DIR$/Arrays/MaxNumberInArray" />
+            <option value="$PROJECT_DIR$/Introduction/HelloClass" />
+            <option value="$PROJECT_DIR$/Introduction/HelloObject" />
+            <option value="$PROJECT_DIR$/Introduction/HelloWorld" />
+            <option value="$PROJECT_DIR$/Introduction/HelloWorldMethod" />
+            <option value="$PROJECT_DIR$/Introduction/SumMethod" />
+            <option value="$PROJECT_DIR$/Lists/SortAscending" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

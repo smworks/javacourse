@@ -5,6 +5,6 @@ files:
   placeholders:
   - offset: 150
     length: 34
-    placeholder_text: Parašykite komandą teksto spausdinimui į konsolę
+    placeholder_text: TODO
 - name: test/Tests.java
   visible: false
