@@ -5,6 +5,6 @@ files:
   placeholders:
   - offset: 92
     length: 14
-    placeholder_text: Tekstą reikia rašyti tarp dvigubų kabučių (")
+    placeholder_text: TODO
 - name: test/Tests.java
   visible: false

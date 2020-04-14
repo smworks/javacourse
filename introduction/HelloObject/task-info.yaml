@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 108
     length: 19
-    placeholder_text: Iškvieskite printHello() metodą iš klasės Hello
+    placeholder_text: TODO
 - name: test/Tests.java
   visible: false
 - name: src/Hello.java

@@ -5,6 +5,6 @@ files:
   placeholders:
   - offset: 121
     length: 10
-    placeholder_text: Iškvieskite sum metodą su parametrais a ir b
+    placeholder_text: TODO
 - name: test/Tests.java
   visible: false
